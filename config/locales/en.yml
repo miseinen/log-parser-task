@@ -1,0 +1,14 @@
+en:
+  error_handler:
+    general: 'An error occurred:'
+  validators:
+    file_absent: Please provide a log file.
+    invalid_extension: Invalid file extension for log file. Please provide .txt or .log file.
+    invalid_locale: Invalid locale. Please provide en or jp locale.
+  printer:
+    most_page_view_message: 'List of webpages with most page views:'
+    unique_page_views_message: 'List of webpages with most unique page views:'
+    usage_info_message: "Provide log file and language (optional, default is English).\n Example: ./runner.rb webserver.log jp"
+    visits: visits
+    unique_views: unique views
+    usage: Usage

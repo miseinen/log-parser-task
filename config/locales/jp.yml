@@ -1,0 +1,14 @@
+jp:
+  error_handler:
+    general: 'エラーが発生しました:'
+  validators:
+    file_absent: ログファイルを提供してください。
+    invalid_extension: ログファイルのファイル拡張子が無効です。 .txt または .log ファイルを提供してください。
+    invalid_locale: ロケールが無効です。 en または jp ロケールを指定してください。
+  printer:
+    most_page_view_message: 'ページビューが最も多いページのリスト:'
+    unique_page_views_message: 'ユニークページビューが最も多いページのリスト:'
+    usage_info_message: "ログファイルと言語を指定します(オプション、デフォルトは英語)\n 例: ./runner.rb webserver.log jp"
+    visits: 訪問
+    unique_views: ユニークビュー
+    usage: 使用法
